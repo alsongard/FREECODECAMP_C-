@@ -86,7 +86,11 @@ namespace MyApp
 		string myName = Console.ReadLine() ?? "";
 		Console.WriteLine("Hello Hello " + myName);
 
-
+		Console.Write("Enter full name:");
+		string fullName = Console.ReadLine() ?? "";
+		Console.Write("Enter age: ");
+		string newUserAge = Console.ReadLine() ?? "";
+		Console.WriteLine("Username is : " + fullName + " age is :" + newUserAge); 
 		}	
 	}
 }
